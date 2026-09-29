@@ -2,10 +2,14 @@
 using namespace std;
 int main()
 {
-    int n=45;
+    int n=-45;
 
     if(n>=0){
-        cout<<"n is positive:"<<n<<endl;     
+        cout<<"n is positive:";    
+    }
+    else
+    {
+        cout<<"n is not positive:";
     }
     return 0;
 }
