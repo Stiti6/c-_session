@@ -4,13 +4,16 @@ int main(){
     int n, i, isPrime = 1;
     cout << "Enter a positive integer: ";
     cin >> n;
+
+    //using factor to soleve the problem
     for(i = 2; i <= n/2; ++i){
         if(n % i == 0){
             isPrime = 0;    
             break;
         }
     }
-    if(isPrime == 1)
+    if(isPrime == 1)//boolean value
+    
         cout << n << " is a prime number.";
     else
         cout << n << " is not a prime number.";
